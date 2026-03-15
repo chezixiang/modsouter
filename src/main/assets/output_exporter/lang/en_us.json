@@ -1,0 +1,8 @@
+{
+    "export.items.success": "Successfully exported %s items to export/items.json",
+    "export.items.failed": "Failed to export items: %s",
+    "export.sounds.success": "Successfully exported %s sounds to export/sounds.json",
+    "export.sounds.failed": "Failed to export sounds: %s",
+    "export.all.success": "Successfully exported %s items and %s sounds to export/ directory",
+    "export.all.failed": "Failed to export all: %s"
+}

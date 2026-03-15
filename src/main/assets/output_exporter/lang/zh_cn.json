@@ -1,0 +1,8 @@
+{
+    "export.items.success": "成功导出 %s 个物品到 export/items.json",
+    "export.items.failed": "导出物品失败: %s",
+    "export.sounds.success": "成功导出 %s 个音效到 export/sounds.json",
+    "export.sounds.failed": "导出音效失败: %s",
+    "export.all.success": "成功导出 %s 个物品和 %s 个音效到 export/ 目录",
+    "export.all.failed": "导出全部失败: %s"
+}

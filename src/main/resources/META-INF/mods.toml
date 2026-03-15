@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/example/output_exporter/issues"
+
+[[mods]]
+modId = "output_exporter"
+version = "1.0.0"
+displayName = "Output Exporter"
+authors = "Example"
+description = '''
+A mod that exports registered items and sounds to files.
+Provides /output command with object, music, and all subcommands.
+'''
+
+[[dependencies.output_exporter]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.output_exporter]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
