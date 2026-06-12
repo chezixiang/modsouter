@@ -49,6 +49,8 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 repositories {
     maven { url 'https://maven.aliyun.com/repository/public' }
     maven { url 'https://maven.aliyun.com/repository/central' }
+    maven { url 'https://repo.huaweicloud.com/repository/maven/' }
+    maven { url 'https://mirrors.tencent.com/nexus/repository/maven-public/' }
     mavenCentral()
 }
 

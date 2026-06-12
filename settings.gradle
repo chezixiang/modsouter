@@ -2,8 +2,11 @@ pluginManagement {
     repositories {
         maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
         maven { url 'https://maven.aliyun.com/repository/public' }
+        maven { url 'https://repo.huaweicloud.com/repository/maven/' }
+        maven { url 'https://mirrors.tencent.com/nexus/repository/maven-public/' }
         gradlePluginPortal()
-        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+        maven { url 'https://maven.minecraftforge.net/' }
     }
 }
 
