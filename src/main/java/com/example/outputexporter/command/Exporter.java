@@ -169,7 +169,7 @@ public class Exporter {
             throw new RuntimeException("Failed to write output export file", e);
         }
 
-        return (int) (itemRegistry.count() + soundRegistry.count());
+        return (int) (itemRegistry.stream().count() + soundRegistry.stream().count());
     }
 
     private JsonObject getOrCreateModSection(JsonObject parent, String namespace) {
