@@ -74,7 +74,7 @@ public class Exporter {
             throw new RuntimeException("Failed to write items export file", e);
         }
 
-        return (int) itemRegistry.count();
+        return (int) itemRegistry.stream().count();
     }
 
     public int exportSounds() {
@@ -108,7 +108,7 @@ public class Exporter {
             throw new RuntimeException("Failed to write sounds export file", e);
         }
 
-        return (int) soundRegistry.count();
+        return (int) soundRegistry.stream().count();
     }
 
     public int exportAll() {
